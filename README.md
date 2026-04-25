@@ -54,6 +54,17 @@ Restart Claude Desktop; the four tools should show up in the tool menu.
 claude mcp add dns dns-mcp
 ```
 
+### Codex CLI
+
+Add to `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.dns]
+command = "dns-mcp"
+```
+
+Restart Codex. The four tools are then available in any Codex session.
+
 ### Run from source
 
 ```bash
