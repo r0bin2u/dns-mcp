@@ -1,5 +1,8 @@
 # dns-mcp
 
+[![Listed in Awesome MCP Servers](https://srv-cdn.himpfen.io/badges/awesome-mcp-servers/awesome-flat.svg)](https://github.com/punkpeye/awesome-mcp-servers)
+[![r0bin2u/dns-mcp MCP server](https://glama.ai/mcp/servers/r0bin2u/dns-mcp/badges/score.svg)](https://glama.ai/mcp/servers/r0bin2u/dns-mcp)
+
 A [Model Context Protocol](https://modelcontextprotocol.io/) server that lets any MCP client (Claude Desktop, Claude Code, Cursor, etc.) do DNS, WHOIS, and IP geolocation lookups mid-conversation.
 
 Ask Claude *"why is foo.com unreachable from Tokyo?"* and it can actually dig the records, check the WHOIS, and geo-locate the IP without leaving the chat.
